@@ -1,0 +1,5 @@
+genereer components
+event binding with property binding and two way binding. <--first
+add buttons
+try routing in angular <- angular.io
+Angular Services <-- NB
