@@ -1,0 +1,22 @@
+<!--
+    change die variables om vir registration.
+-->
+<form (ngSubmit)="calculateBmi()" #heroForm="ngForm">
+    <span class = "border">
+        <div class="container-lg">
+            <p>ENTER THE FOLLOWING</p>
+            <div class = "mb-3" style="width: 500px;">
+                <input type="text" class="form-control" [(ngModel)]="userBmi.height" required name="height" />
+            </div>
+            <div class = "mb-3" style="width: 500px;">
+                <input type="text" class="form-control" [(ngModel)]="userBmi.weight" required name="weight"  />
+            </div>
+            <div class = "mb-3" style="width: 500px;">
+                <button type="submit" [disabled]="!heroForm.form.valid">calculate Bmi</button>
+            </div>
+            <div class = "mb-3" style="width: 150px;">
+                <input type="text" class="form-control"[(ngModel)]="userBmi.bmi" name="bmi" />
+            </div>
+        </div>
+    </span>
+</form>

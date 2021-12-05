@@ -1,5 +1,4 @@
-genereer components
-event binding with property binding and two way binding. <--first
-add buttons
-try routing in angular <- angular.io
-Angular Services <-- NB
+gaan deur tutorial vids
+kyk na templates
+speel met bootstrap(registration form practice & research)
+console logging is NB
